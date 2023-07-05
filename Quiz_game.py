@@ -80,6 +80,7 @@ answers = [["A.Markus Persson", "B.Scott Cawthon", "C.George Fan", "D.Troy Baker
 # Try reimplementing these dictionaries with my comments in mind
 
 # Please read about "do while loop" and try to implement it here
+# You did a good implementation of that in rock, paper, scissors game
 game()
 while play_again():
     game()
