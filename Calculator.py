@@ -23,6 +23,7 @@ print("2.substract")
 print("3.multiply")
 print("4.divide")
 
+#There's no input checking like in the cases above - I could input a string here
 choice = input("Which operation would you like to pick? (choose 1, 2, 3 or 4): ")
 
 if choice == "1":
@@ -35,7 +36,9 @@ elif choice == "3":
     print(number_1, "*", number_2, "=", multiply(number_1, number_2))
 
 elif choice == "4":
+    #This solution doesn't account for dividing by 0
     print(number_1, ":", number_2, "=", divide(number_1, number_2))
 
 else:
     print("Error!")
+#Does the program finish after a single operation?!

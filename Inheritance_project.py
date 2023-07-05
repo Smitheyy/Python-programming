@@ -1,3 +1,5 @@
+# Try having some fun with the code. Please read about "Method override" and implement some overrides that would benefit the program
+
 class Animal:
     alive = True
 

@@ -1,3 +1,5 @@
+# Have more fun with your programs, think on how to improve them. You could implement a win streak counter for example
+
 import random
 
 options = ("rock", "paper", "scissors")
@@ -8,6 +10,7 @@ while running:
     player = None
     computer = random.choice(options)
 
+    # That is a bit of a step up with the input validation, but python may create some problems with dynamic typing if the user starts inputing some numbers
     while player not in options:
         player = input("Enter a choice(rock, paper. scissors): ")
 
